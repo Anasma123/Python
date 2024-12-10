@@ -1,4 +1,7 @@
-r=int(input("enter the radius:"))
-b=r*r
-c=3.14*b
-print("the area is:",c)
+r=int(input("enter an num:"))
+def ar(r):
+    pi=3.14
+    return pi*(r*r)
+print(ar(r))
+
+
