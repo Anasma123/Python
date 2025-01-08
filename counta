@@ -1,0 +1,5 @@
+b = ["anas", "jhhj", "hbaj"]
+a = sum(s.count('a') for s in b)
+print("Count of 'a':", a)
+
+
