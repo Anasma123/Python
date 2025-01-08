@@ -1,0 +1,10 @@
+a = str(input("ehg: "))
+w = a.lower().split()
+c = {}
+for word in w:
+    if word in c:
+        c[word] += 1
+    else:
+        c[word] = 1
+for x, y in c.items():
+    print(x, y)
